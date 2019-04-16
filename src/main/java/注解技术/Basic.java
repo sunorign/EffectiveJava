@@ -13,6 +13,7 @@ public class Basic {
 //                        .addField(FieldSpec.builder().build())               //属性
 //                        .addMethod(MethodSpec.constructorBuilder().build())              //方法
 //                        .build()).build();
+        //
     }
 }
 
