@@ -17,7 +17,7 @@ public class JavaPoet {
                         // 给类添加一个属性
                         .addField(FieldSpec.builder(TypeName.INT, "mField", Modifier.PRIVATE).build())
                         // 给类添加一个方法
-                        .addMethod(MethodSpec.methodBuilder("menthod")
+                        .addMethod(MethodSpec.methodBuilder("method")
                                 .addModifiers(Modifier.PUBLIC)
                                 .returns(void.class)
                                 .addParameter(ParameterSpec.builder(TypeName.OBJECT, "str").build())
