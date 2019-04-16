@@ -1,0 +1,10 @@
+.svn/
+.gradle/
+bin/
+gen/
+build/
+doc/~$*.doc*
+doc/~$*.wps*
+~$*.doc*
+~$*.wps*
+.idea/
