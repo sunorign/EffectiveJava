@@ -1,6 +1,6 @@
 package 创建和销毁对象;
 
-public class Try_with_resource {
+public class 自动关闭资源文件 {
     public static void main(String[] args){
         try(Connection connection = new Connection()){
             connection.sendData();
